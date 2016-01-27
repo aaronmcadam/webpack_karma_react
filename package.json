@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "karma start",
+    "test-multi": "karma start --single-run=false"
   },
   "keywords": [],
   "author": "",
@@ -16,7 +17,17 @@
     "babel-preset-react": "^6.3.13",
     "babel-preset-stage-2": "^6.3.13",
     "css-loader": "^0.23.1",
+    "expect": "^1.13.4",
+    "expect-jsx": "^2.2.2",
     "extract-text-webpack-plugin": "^1.0.1",
+    "karma": "^0.13.19",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-cli": "^0.1.2",
+    "karma-mocha": "^0.2.1",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.4.4",
+    "react-addons-test-utils": "^0.14.6",
     "style-loader": "^0.13.0",
     "webpack": "^1.12.12"
   }

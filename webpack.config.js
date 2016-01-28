@@ -7,10 +7,12 @@ const PATHS = {
 };
 
 module.exports = {
-  entry: './src/index.js',
+  entry: {
+    main: './src/index.js',
+  },
   output: {
     path: PATHS.build,
-    filename: 'bundle.js'
+    filename: '[name].[hash].js'
   },
   devtool: 'source-map',
   module: {

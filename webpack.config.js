@@ -12,6 +12,7 @@ module.exports = {
     path: PATHS.build,
     filename: 'bundle.js'
   },
+  devtool: 'source-map',
   module: {
     loaders: [
       {
@@ -29,6 +30,5 @@ module.exports = {
   },
   plugins: [
     new ExtractTextPlugin('styles.css')
-  ],
-  devtool: 'source-map'
+  ]
 };

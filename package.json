@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
+    "start": "webpack-dev-server",
     "test": "karma start",
     "test-multi": "karma start --single-run=false"
   },

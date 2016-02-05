@@ -10,6 +10,7 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: PATHS.build,
+    publicPath: '/assets/',
     filename: 'bundle.js'
   },
   devtool: 'source-map',
